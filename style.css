@@ -133,7 +133,7 @@ input,button{
   margin: 0 10px;
 }
 
-.tasks-list__item > label {
+.item__task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
@@ -150,7 +150,7 @@ input,button{
   transition: transform 200ms ease-in;
 }
 
-.button__delete .button__img:hover {
+.button__delete:hover .button__img {
   transform: rotateZ(0);
 }
 
