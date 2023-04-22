@@ -31,7 +31,7 @@ input,button{
 }
 
 .header__link {
-  font-family: fantasy, cursive;
+  font-family: 'fantasy', cursive;
 }
 
 @media (max-width:768px) {
@@ -165,11 +165,11 @@ input,button{
   display: none;
 }
 
-.item__input-task_active{
+.tasks-list__item_editable .item__input-task{
   display: inline-block;
   width: 224px;
 }
 
-.item__input-task_active .item__task {
+.tasks-list__item_editable .item__task {
   display: none;
 }
