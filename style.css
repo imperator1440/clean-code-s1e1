@@ -129,7 +129,7 @@ input,button{
   vertical-align: middle;
 }
 
-.tasks-list__item > input[type="checkbox"] {
+.item__checkbox {
   margin: 0 10px;
 }
 
